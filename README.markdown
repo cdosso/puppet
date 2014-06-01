@@ -9,7 +9,7 @@ to contribute, or open any issues.
 class { 'phalconphp':
     ensure_sys_deps => true,
     ensure => 'master', 
-    install_devtool => true,
+    install_devtools => true,
     devtools_version => 'master',
     install_zephir => false,
     compat_sys_deps => false,
